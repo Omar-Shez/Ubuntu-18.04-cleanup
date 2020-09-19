@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ubuntu (GNOME) 18.04 setup script.
-# ORIGINAL SCRIPT MADE BY CHRIS TITUS
+
 
 dpkg -l | grep -qw gdebi || sudo apt-get install -yyq gdebi
 
